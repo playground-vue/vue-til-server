@@ -3,8 +3,8 @@
 
 [인프런 Vue.js 끝장내기 강좌](https://www.inflearn.com/course/vue-js-%EB%81%9D%EB%82%B4%EA%B8%B0-%EC%BA%A1%ED%8B%B4%ED%8C%90%EA%B5%90) TIL 애플리케이션의 백엔드 API를 제공하는 Node.js 코드 리포지토리입니다.
 
-필요에 의해 Node.js 16버전에 맞게 변경한 레포지토리입니다.
-node 16 환경에서 `bcrypt` 라이브러리 설치가 안되어 `bcryptjs`로 변경
+- 필요에 의해 Node.js 16버전에 맞게 변경한 레포지토리입니다.
+node 16 환경에서는 `bcrypt` 라이브러리 설치가 안되는 호환성 이슈로 인해 `bcryptjs` 라이브러리로 변경하였습니다.
 
 ## 개발 환경
 
@@ -26,7 +26,7 @@ node 16 환경에서 `bcrypt` 라이브러리 설치가 안되어 `bcryptjs`로 
 
 ```bash
 # Node.js를 실행하기 위해 필요한 라이브러리를 설치하는 명령어
-npm i
+npm install
 ```
 
 3. `package.json`에 정의되어 있는 실행 명령어를 입력합니다.
@@ -52,7 +52,7 @@ TIL 애플리케이션의 백엔드 API는 아래 주소에서 확인할 수 있
 
 [http://localhost:3000/api/docs](http://localhost:3000/api/docs)
 
-## Mongo Cloud 가입 절차
+## Mongo Cloud 가입
 
 애플리케이션의 데이터는 몽고 DB에 저장합니다. 
 실습 환경을 빠르게 구성하기 위해서 로컬에 몽고 DB를 설치하지 않고 몽고 DB 클라우드 서비스를 사용할게요.
@@ -82,3 +82,4 @@ TIL 애플리케이션의 백엔드 API는 아래 주소에서 확인할 수 있
 ## License
 
 MIT - CaptainPangyo
+MIT - kdeun1
